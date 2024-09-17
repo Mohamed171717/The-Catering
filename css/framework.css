@@ -1,0 +1,399 @@
+
+/* start components */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-shape {
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.s-btn-shape {
+    padding: 5px 20px;
+    border-radius: 6px;
+}
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* end components */
+/* start box  */
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+.d-block {
+    display: block;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+/* end box */
+/* start padding + margin */
+.pt-30 {
+    padding-top: 30px;
+}
+.p-30 {
+    padding: 30px;
+}
+.p-20 {
+    padding: 20px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-10 {
+    padding: 10px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.m-20 {
+    margin: 20px;
+}
+.m-15 {
+    margin: 15px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.ml-3 {
+    margin-left: 3px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.m-0 {
+    margin: 0;
+}
+
+/* end padding + margin */
+/* start color */
+.bg-3a {
+    background-color: #3a3a3a;
+}
+.bg-4c {
+    background-color: #4c4c4c;
+}
+.c-list {
+    color: #c3c3c3;
+}
+.c-h {
+    color: #ddd;
+}
+.bg-before {
+    background-color: #747474;
+}
+.c-74 {
+    color: #747474;
+}
+.bg-333 {
+    background-color: #3f3f3f;
+}
+.bg-3d {
+    background-color: #8c8987;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.bg-ccc {
+    background-color: #ccc;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-alt-green {
+    background-color: var(--alt-green-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-red {
+    background-color: var(--red-color);
+}
+.c-ccc {
+    color: #ccc;
+}
+.c-gold {
+    color: gold;
+}
+.c-white {
+    color: white;
+}
+.c-black {
+    color: black;
+}
+.c-grey {
+    color: var(--grey-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.c-blue {
+    color: var(--blue-color);
+}
+.c-red {
+    color: var(--red-color);
+}
+.c-alt-blue {
+    color: #2d8ae0;
+}
+/* start color */
+/* start position */
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+
+/* end position */
+/* start border */
+.rad-half {
+    border-radius: 50%;
+}
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.b-none {
+    border: none;
+}
+.border-ccc {
+    border: 1px solid var(--border-color);
+}
+.border-3d {
+    border: 1px solid #3d3d3d;
+}
+/* end border */
+/* start fonts */
+.txt-c {
+    text-align: center;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.fw-900 {
+    font-weight: 900;
+}
+.fw-normal {
+    font-weight: normal;
+}
+.txt-end {
+    text-align: end;
+}
+/* end fonts */
+
+/* start width & height */
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.w-100 {
+    width: 100px;
+}
+.h-100 {
+    height: 100px;
+}
+/* end width & height */
+
+/* start media */
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+    .block-mobile {
+        display: block;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
+/* end media */
+
+
+/* checkbox */
+/*  <label>
+        <input class="toggle-checkbox" type="checkbox" checked>
+        <div class="toggle-switch"></div>
+    </label>
+ */
+/* checkbox */
+
+
+
+
+/* loader */
+/* 
+.loader {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    position: relative;
+    transform: rotate(45deg);
+}
+.loader::before {
+    content: '';  
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: -24px;
+    animation: animloader 4s ease infinite;
+}
+.loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    animation: animloader2 2s ease infinite;
+}
+
+@keyframes animloader {
+    0% {
+    box-shadow: 0 24px rgba(255, 255, 255, 0), 24px 24px rgba(255, 255, 255, 0), 24px 48px rgba(255, 255, 255, 0), 0px 48px rgba(255, 255, 255, 0);
+    }
+    12% {
+    box-shadow: 0 24px white, 24px 24px rgba(255, 255, 255, 0), 24px 48px rgba(255, 255, 255, 0), 0px 48px rgba(255, 255, 255, 0);
+    }
+    25% {
+    box-shadow: 0 24px white, 24px 24px white, 24px 48px rgba(255, 255, 255, 0), 0px 48px rgba(255, 255, 255, 0);
+    }
+    37% {
+    box-shadow: 0 24px white, 24px 24px white, 24px 48px white, 0px 48px rgba(255, 255, 255, 0);
+    }
+    50% {
+    box-shadow: 0 24px white, 24px 24px white, 24px 48px white, 0px 48px white;
+    }
+    62% {
+    box-shadow: 0 24px rgba(255, 255, 255, 0), 24px 24px white, 24px 48px white, 0px 48px white;
+    }
+    75% {
+    box-shadow: 0 24px rgba(255, 255, 255, 0), 24px 24px rgba(255, 255, 255, 0), 24px 48px white, 0px 48px white;
+    }
+    87% {
+    box-shadow: 0 24px rgba(255, 255, 255, 0), 24px 24px rgba(255, 255, 255, 0), 24px 48px rgba(255, 255, 255, 0), 0px 48px white;
+    }
+    100% {
+    box-shadow: 0 24px rgba(255, 255, 255, 0), 24px 24px rgba(255, 255, 255, 0), 24px 48px rgba(255, 255, 255, 0), 0px 48px rgba(255, 255, 255, 0);
+    }
+}
+
+@keyframes animloader2 {
+    0% {
+    transform: translate(0, 0) rotateX(0) rotateY(0);
+    }
+    25% {
+    transform: translate(100%, 0) rotateX(0) rotateY(180deg);
+    }
+    50% {
+    transform: translate(100%, 100%) rotateX(-180deg) rotateY(180deg);
+    }
+    75% {
+    transform: translate(0, 100%) rotateX(-180deg) rotateY(360deg);
+    }
+    100% {
+    transform: translate(0, 0) rotateX(0) rotateY(360deg);
+    }
+}    */
+
+
+
+
+
+
